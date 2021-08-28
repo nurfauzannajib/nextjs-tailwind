@@ -3,7 +3,7 @@ import Logo from "../public/assets/logo.svg";
 
 function Header() {
   return (
-    <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md py-4 px-6 md:px-10">
+    <header className="sticky top-0 z-10 grid grid-cols-3 bg-white shadow-md py-4 px-6 md:px-10">
       {/* Left Section */}
       <div className="relative flex items-center h-10 cursor-pointer my-auto">
         <Image
@@ -15,7 +15,7 @@ function Header() {
       </div>
       {/* Middle Section */}
       <div>
-        <ul className="items-center gap-14 justify-center p-3 hidden md:flex">
+        <ul className="items-center gap-14 justify-center p-3 hidden md:flex font-serif font-bold">
           <li>
             <button>Home</button>
           </li>
@@ -30,7 +30,7 @@ function Header() {
 
       {/* Button End */}
       <div className="flex items-center justify-end">
-        <div className="flex items-center space-x-2 border-2 p-1 rounded-md border-blue-500">
+        <div className="flex items-center space-x-2 border-2 p-1 rounded-md border-grey-10">
           <button className="text-gray-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"

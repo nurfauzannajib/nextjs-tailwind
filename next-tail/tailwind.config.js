@@ -3,7 +3,23 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          450: "#E9F9FF",
+          410: "#0066FF",
+          420: "#94E0FF",
+        },
+        grey: {
+          10: "#5F727B",
+        },
+      },
+      fontFamily: {
+        mono: "Manrope",
+        serif: "Work Sans",
+        sans: "Open Sans",
+      },
+    },
   },
   variants: {
     extend: {},
