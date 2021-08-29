@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Service from "../components/Service";
 import Support from "../components/Support";
+import { FooterEnd } from "../components/Footer";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       <Service />
       <Benefit />
       <Footer />
+      <FooterEnd />
     </div>
   );
 }
