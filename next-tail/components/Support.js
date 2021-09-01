@@ -7,7 +7,7 @@ import Sulsel from "../public/assets/sulsellogo.svg";
 function Support() {
   return (
     <div>
-      <div className="flex justify-center gap-36 bg-blue-450 h-full py-14 mt-72">
+      <div className="flex  flex-wrap justify-center gap-36 bg-blue-450 h-full py-14 mt-72">
         <Image src={Kampus} />
         <Image src={Unm} />
         <Image src={Sulsel} />
