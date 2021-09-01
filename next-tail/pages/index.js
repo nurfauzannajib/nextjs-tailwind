@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Benefit from "../components/Benefit";
-import Footer from "../components/Footer";
+import Coba, { Coba1 } from "../components/Coba";
+import Footer, { FooterEnd } from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Service from "../components/Service";
 import Support from "../components/Support";
-import { FooterEnd } from "../components/Footer";
 
 export default function Home() {
   return (
@@ -36,6 +36,8 @@ export default function Home() {
       <Benefit />
       <Footer />
       <FooterEnd />
+      <Coba />
+      <Coba1 />
     </div>
   );
 }
