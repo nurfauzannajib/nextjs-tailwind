@@ -13,6 +13,7 @@ export default function Home() {
       <Head>
         <title>Learn Next</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="public/css/tailwindcss.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
