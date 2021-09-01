@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Benefit from "../components/Benefit";
-import Coba, { Coba1 } from "../components/Coba";
+import OurTeam, { Coba1, Coba2 } from "../components/OurTeam";
 import Footer, { FooterEnd } from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -34,10 +34,9 @@ export default function Home() {
       <Support />
       <Service />
       <Benefit />
+      <OurTeam />
       <Footer />
       <FooterEnd />
-      <Coba />
-      <Coba1 />
     </div>
   );
 }

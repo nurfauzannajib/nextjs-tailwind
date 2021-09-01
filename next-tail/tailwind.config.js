@@ -13,6 +13,9 @@ module.exports = {
         grey: {
           10: "#5F727B",
         },
+        green: {
+          10: "#4CAF50",
+        },
       },
       fontFamily: {
         mono: "Manrope",

@@ -6,7 +6,7 @@ import Monitor from "../public/assets/Monitor.svg";
 function Benefit() {
   return (
     <div>
-      <section class="text-gray-600 body-font">
+      <section>
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 class="text-6xl sm:text-6xl font-bold text-grey-10 font-mono">

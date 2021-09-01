@@ -8,7 +8,7 @@ import Green from "../public/assets/green.svg";
 
 function Service() {
   return (
-    <div className="mt-8">
+    <div className="mt-24">
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-12 mx-auto">
           <div class="flex flex-wrap -m-4">
