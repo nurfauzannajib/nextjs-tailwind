@@ -18,7 +18,7 @@ function OurTeam() {
         showStatus={false}
         showIndicators={false}
         showThumbs={false}
-        interval={3000}
+        interval={5000}
       >
         <div>
           <Coba1 />
