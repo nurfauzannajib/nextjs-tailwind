@@ -9,15 +9,15 @@ import Green from "../public/assets/green.svg";
 function Service() {
   return (
     <div className="mt-24">
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-12 mx-auto">
-          <div class="flex flex-wrap -m-4">
-            <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-5 rounded-lg">
-                <h2 class="text-4xl text-grey-10 font-semibold font-mono title-font mb-4">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-12 mx-auto">
+          <div className="flex flex-wrap -m-4">
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="p-5 rounded-lg">
+                <h2 className="text-4xl text-grey-10 font-semibold font-mono title-font mb-4">
                   service yang kami sediakan
                 </h2>
-                <p class="text-lg font-mono font-light text-grey-10">
+                <p className="text-lg font-mono font-light text-grey-10">
                   semua layanan dapat diakses secara real-time 24 jam!
                 </p>
                 <div className="mt-4 flex items-center">
@@ -35,37 +35,37 @@ function Service() {
                 </div>
               </div>
             </div>
-            <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class=" p-6 rounded-lg">
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className=" p-6 rounded-lg">
                 <Image src={Air} />
-                <h2 class="font-medium text-xl font-mono text-grey-10 pt-3">
+                <h2 className="font-medium text-xl font-mono text-grey-10 pt-3">
                   Monitoring Udara
                 </h2>
-                <p class="font-serif font-light text-grey-10 pt-3">
+                <p className="font-serif font-light text-grey-10 pt-3">
                   Monitoring parameter fisik berbagai jenis air dari air bersih
                   sampai limbah
                 </p>
               </div>
             </div>
-            <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg">
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="p-6 rounded-lg">
                 <Image src={Udara} />
-                <h2 class="font-medium text-xl font-mono text-grey-10 pt-3">
+                <h2 className="font-medium text-xl font-mono text-grey-10 pt-3">
                   Monitoring Udara
                 </h2>
-                <p class="font-serif font-light text-grey-10 pt-3">
+                <p className="font-serif font-light text-grey-10 pt-3">
                   Monitoring parameter fisik berbagai jenis air dari air bersih
                   sampai limbah
                 </p>
               </div>
             </div>
-            <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg">
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="p-6 rounded-lg">
                 <Image src={Emisi} />
-                <h2 class="font-medium text-xl font-mono text-grey-10 pt-3">
+                <h2 className="font-medium text-xl font-mono text-grey-10 pt-3">
                   Monitoring Udara
                 </h2>
-                <p class="font-serif font-light text-grey-10 pt-3">
+                <p className="font-serif font-light text-grey-10 pt-3">
                   Monitoring parameter fisik berbagai jenis air dari air bersih
                   sampai limbah
                 </p>

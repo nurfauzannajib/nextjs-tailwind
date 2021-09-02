@@ -7,53 +7,53 @@ function Footer() {
   return (
     <div>
       <footer>
-        <div class="container mx-auto px-6">
-          <div class="sm:flex sm:mt-8">
-            <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
-              <div class="flex flex-col mb-5">
+        <div className="container mx-auto px-6">
+          <div className="sm:flex sm:mt-8">
+            <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
+              <div className="flex flex-col mb-5">
                 <div className="flex items-start h-8 w-36 cursor-pointer my-0">
                   <Image src={Logo} />
                 </div>
               </div>
-              <div class="flex flex-col">
-                <span class="font-semibold font-mono text-lg text-grey-10">
+              <div className="flex flex-col">
+                <span className="font-semibold font-mono text-lg text-grey-10">
                   Layanan
                 </span>
-                <span class="mt-2">
-                  <a href="#" class="font-serif font-light text-grey-10">
+                <span className="mt-2">
+                  <a href="#" className="font-serif font-light text-grey-10">
                     Monitoring air
                   </a>
                 </span>
-                <span class="">
-                  <a href="#" class="font-serif font-light text-grey-10">
+                <span className="">
+                  <a href="#" className="font-serif font-light text-grey-10">
                     Monitoring Udara
                   </a>
                 </span>
-                <span class="">
-                  <a href="#" class="font-serif font-light text-grey-10">
+                <span className="">
+                  <a href="#" className="font-serif font-light text-grey-10">
                     Monitoring Emisi
                   </a>
                 </span>
               </div>
 
-              <div class="flex flex-col mt-3">
-                <span class="font-semibold font-mono text-lg text-grey-10">
+              <div className="flex flex-col mt-3">
+                <span className="font-semibold font-mono text-lg text-grey-10">
                   Support
                 </span>
-                <span class="mt-2">
-                  <a href="#" class="font-serif font-light text-grey-10">
+                <span className="mt-2">
+                  <a href="#" className="font-serif font-light text-grey-10">
                     Bantuan
                   </a>
                 </span>
-                <span class="">
-                  <a href="#" class="font-serif font-light text-grey-10">
+                <span className="">
+                  <a href="#" className="font-serif font-light text-grey-10">
                     Frequently Asked Questions (FAQ)
                   </a>
                 </span>
               </div>
 
-              <div class="flex flex-col mt-3">
-                <span class="font-semibold font-mono text-lg text-grey-10">
+              <div className="flex flex-col mt-3">
+                <span className="font-semibold font-mono text-lg text-grey-10">
                   Tentang Kami
                 </span>
               </div>
@@ -68,10 +68,10 @@ function Footer() {
 export function FooterEnd() {
   return (
     <div>
-      <div class="container mx-auto px-6">
-        <div class="flex flex-col items-center">
-          <div class="sm:w-2/3 text-center py-6">
-            <p class="text-xs font-thin font-mono text-grey-10">
+      <div className="container mx-auto px-6">
+        <div className="flex flex-col items-center">
+          <div className="sm:w-2/3 text-center py-6">
+            <p className="text-xs font-thin font-mono text-grey-10">
               Copyright © 2021 by GreTech Team
               <div className="ml-2 inline-flex">
                 <Image src={Heart} />

@@ -1,12 +1,9 @@
 import Image from "next/image";
-import Banner from "../public/assets/hero1.svg";
+import Banner from "../public/assets/hero 1.svg";
 
 function Hero() {
   return (
     <div className="container">
-      <div className="mt-20 lg:absolute lg:inset-y-0 lg:right-0 hidden md:block sm:block">
-        <Image src={Banner} />
-      </div>
       <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-10 lg:px-8 xl:mt-28">
         <div className="sm:text-center lg:text-left">
           <h1 className="text-4xl tracking-tight font-extrabold text-grey-10 sm:text-5xl md:text-6xl font-mono">
@@ -40,6 +37,9 @@ function Hero() {
           </div>
         </div>
       </main>
+      <div className="lg:max-w-3xl lg:w-auto md:w-5/6 my-20 lg:absolute lg:inset-y-0 lg:right-0">
+        <Image src={Banner} />
+      </div>
     </div>
   );
 }
