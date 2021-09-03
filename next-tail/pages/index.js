@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Learn Next</title>
+        <title>GreTech</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="public/css/tailwindcss.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

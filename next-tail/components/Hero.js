@@ -20,18 +20,10 @@ function Hero() {
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start lg:mt-10">
             <div className="rounded-md shadow">
               <a
-                href="#"
-                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-grey-10 bg-blue-420 hover:bg-blue-800 md:py-4 md:text-lg md:px-10 font-serif"
+                href="https://dashboard-gretech.vercel.app/"
+                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-grey-10 bg-blue-420 hover:bg-white md:py-4 md:text-lg md:px-10 font-serif"
               >
-                Get started
-              </a>
-            </div>
-            <div className="mt-3 sm:mt-0 sm:ml-3">
-              <a
-                href="#"
-                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-grey-10 bg-blue-450 hover:bg-indigo-300 md:py-4 md:text-lg md:px-10 font-serif"
-              >
-                Live demo
+                In Develop..
               </a>
             </div>
           </div>
