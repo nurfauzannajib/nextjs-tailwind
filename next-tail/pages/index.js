@@ -36,9 +36,9 @@ export default function Home() {
       <Service />
       <Benefit />
       <OurTeam />
+      <Contact />
       <Footer />
       <FooterEnd />
-      <Contact />
     </div>
   );
 }
