@@ -10,10 +10,10 @@ function Contact() {
               <p className="font-mono font-bold font-grey-10 lg:text-6xl md:text-3xl">
                 Tertarik dengan jasa kami?
               </p>
-              <div className="mt-8">
+              <div className="mt-8 pr-28">
                 <p className="font-serif font-light font-grey-10 text-xl">
-                  Silahkan isi form yang tertera dan Tim kami <br />
-                  akan menghubungi anda dalam 24 jam
+                  Silahkan isi form yang tertera dan Tim kami akan menghubungi
+                  anda dalam 24 jam
                 </p>
               </div>
               <div className="relative mb-4">
